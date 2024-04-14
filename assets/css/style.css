@@ -40,7 +40,7 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  left: 15px;
   bottom: 15px;
   z-index: 996;
   background: #5c84b8;
@@ -67,23 +67,43 @@ h6 {
 }
 
 
+
+.botao-flutuante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.botao-flutuante:hover {
+  background-color: #128c7e;
+}
+
+.botao-flutuante i {
+  margin-right: 10px;
+}
+
 .whatsapp-link {
   position: fixed;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   bottom: 90px;
   right: 20px;
   background-color: #25d366;
   color: #fff;
   border-radius: 50px;
-  text-align: center;
   font-size: 30px;
   box-shadow: 1px 1px 2px #888;
   z-index: 1000;
 }
 
 .fa-whatsapp {
-  margin-top: 20px !important;
+  margin-top: 0 ;
 }
 
 
@@ -1180,7 +1200,7 @@ section {
 
 .contact .info h4 {
   padding: 0 0 0 60px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #222222;
